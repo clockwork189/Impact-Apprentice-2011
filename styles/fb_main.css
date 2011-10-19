@@ -1,0 +1,79 @@
+{margin: 0; padding: 0; }
+img { border: 0px; }
+body { margin-top:0; padding-top:20px; margin: 0 auto; width: 400px; font: 13px/22px Helvetica, Arial, sans-serif; background-image:url('../images/background.jpg'); background-repeat:repeat; } 
+h1 {line-height:15px;}
+h2 {line-height:2px;}
+h3 {line-height:5px;}
+a:link {color:#77b943; text-decoration:none;}      /* unvisited link */
+a:visited {color:#77b943; text-decoration:none;}  /* visited link */
+a:hover {color:#77b943; text-decoration:none;}  /* mouse over link */
+a:active {color:#77b943; text-decoration:none;} 
+#header_wrapper {z-index:20; background-color: #77b943; width: 100%; left: 0; display: block; position: fixed; }
+#nav { display: block; background-color: #77b943; position: absolute; top:0; z-index:20; left: 0; height:70px; width: 100%; margin-top:0px; }
+#nav ul { margin: 0 auto; width: 950px; list-style: none;z-index:20; }
+#nav ul li { float:left;z-index:20; }
+#nav ul li a { display: block; text-decoration:none; margin-right: 5px; margin-top:20px; z-index:20; width: 100px; font-size: 14px; text-align: center; color:#fff; font-family:sans-serif; font-weight: 700;}
+#nav ul li a:hover { color: #000; z-index:20; }
+#nav ul li a:selected {color: #fff; z-index:20;}
+#nav ul li #logo {width: 180px; margin-top:-20px; z-index:20;}
+#nav ul li a #app {width: 220px; margin-top:-20px; z-index:20;}
+#main_content_wrapper { padding-top:80px; width: 400px; margin:auto; position:relative;}
+#video_content { border-width:2px; border-color: #9E9E9E; z-index:-2000; margin:auto; display:block; left:0; padding-left:50px;}
+#applyNow { margin-bottom:20px;}
+#desc_left { width:390px; display:block;}
+#desc_right { background-image:url('../images/about_image-01.png'); background-repeat:no-repeat; height:500px; float:right; display:inline; width:330px; margin-top:-445px;}
+#prev_sponsors { background-image:url('../images/sponsors-01.png'); background-repeat:no-repeat; height:300px; width:800px; margin-left:80px; }
+#title { font-size:18px; }
+#media, #team, #sponsors, #description, #contact { width:800px; padding-left:50px;}
+#contact_table { font-size:14px; }
+#footer_wrapper {background-color: #77b943; color:#fff; width:100%; height:50px; position:absolute; left:0; }
+#footer_img { background-image:url('../images/footer_img-01.png'); width:950px; height:200px; background-repeat:no-repeat;}
+#vid { filter:alpha(opacity=0); z-index:1;}
+#slideshow { position:relative; width:800px; height:400px; }
+#aug {font-family:Impact; font-size:20px; margin-top:10px;}
+div#ajay {  display: none;  position: absolute;  width: 280px;  padding: 10px;  background: #eeeeee;  color: #000000; border: 1px solid #1a1a1a;  font-size: 90%; }
+#popup { height: 100%; width: 100%; background: #000000; position: absolute; top: 0; -moz-opacity:0.75; -khtml-opacity: 0.75; opacity: 0.75; filter:alpha(opacity=75); }
+#window { width: 600px; height: 300px; margin: 0 auto; border: 1px solid #000000; background: #ffffff; position: absolute; top: 200px; left: 25%; }
+div#pop-up1,div#pop-up2,div#pop-up3 {  display: none;  position: absolute;  width: 280px;  padding: 10px;  background: #eeeeee;  color: #000000;  border: 1px solid #1a1a1a;  font-size: 90%; }
+#box_text {font-size:12px;}
+#form_matter { width:400px; }
+#pen {float:right; background-image:url('../images/penreg-01.png'); background-repeat:no-repeat; width:200px; height:243px;}
+#app-main{ margin-left:-50px; width:400px; }
+#fade { /*--Transparent background layer--*/
+	display: none; /*--hidden by default--*/
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+.popup_block{
+	display: none; /*--hidden by default--*/
+	background: #fff;
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	/*--CSS3 Box Shadows--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	/*--CSS3 Rounded Corners--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+img.btn_close {
+	float: right;
+	margin: -55px -55px 0 0;
+}
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade {
+	position: absolute;
+}
+*html .popup_block {
+	position: absolute;
+}
+#app-main { width:600px; margin-top:100px; }
